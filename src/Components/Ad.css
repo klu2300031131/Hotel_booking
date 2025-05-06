@@ -1,0 +1,58 @@
+.ad-container {
+    background: linear-gradient(to right, #bf00ff, #00A8E8); /* Elegant gradient */
+    color: #FFFFFF;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 1050px;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.ad-container:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    transform: scale(1.01);
+}
+
+/* Tag Icon Styling */
+.tag-icon {
+    font-size: 32px;
+    color: #FFFFFF;
+    background: #FF5733; /* Vibrant color for contrast */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Highlight Important Text */
+.highlight {
+    font-weight: bold;
+    color: #FFD700; /* Golden highlight for premium look */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ad-container {
+        font-size: 16px;
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+        max-width: 90%;
+    }
+
+    .tag-icon {
+        font-size: 28px;
+        padding: 8px;
+    }
+}
+.colored-text {
+    color: #e9f500; /* Change to any color you want */
+    font-weight: bold;
+}

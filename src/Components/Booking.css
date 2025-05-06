@@ -1,0 +1,89 @@
+/* Target only elements inside the Booking container */
+.booking-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  /* Specific styles only for Booking page */
+  .booking-container .hotel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 90%; /* Increased width */
+    max-width: 500px; /* Prevents it from becoming too large */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Ensure these styles only apply to the Booking page */
+  .booking-container .hotel-image {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Increase font sizes only in Booking.jsx */
+  .booking-container .hotel-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .booking-container .hotel-location {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .booking-container .hotel-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .booking-container .discounted-price {
+    color: green;
+  }
+  
+  /* Back and Remove buttons styling */
+  .booking-container .btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .booking-container .back-button,
+  .booking-container .remove-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .booking-container .back-button {
+    background-color: gray;
+    color: white;
+  }
+  
+  .booking-container .remove-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .booking-container .back-button:hover {
+    background-color: darkgray;
+  }
+  
+  .booking-container .remove-button:hover {
+    background-color: darkred;
+  }
+  
